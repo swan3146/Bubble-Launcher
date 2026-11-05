@@ -40,7 +40,7 @@ Bubble Launcher 是一个 Android 上的 Minecraft: Java Edition 启动器，基
 - 上游版权归 ZalithLauncher 原作者及贡献者所有
 - 本项目**不是** ZL2 官方项目，与上游无隶属、合作、授权、赞助或背书关系
 
-**ZL2 附加条款对本项目的约束：**
+**ZL2 附加条款对本项目的约束（已执行）：**
 
 1. 名称中不含 “ZalithLauncher” 或 “ZL”，也不使用与官方名称相近、可能导致混淆的名称；
 2. 程序启动页面或主界面以明显方式标注“非官方修改版”；
@@ -54,6 +54,12 @@ Bubble Launcher 是一个 Android 上的 Minecraft: Java Edition 启动器，基
 - **许可证以该仓库当前 LICENSE 文件为准。** 该项目历史上经历过从 GPL 到 LGPL 的许可证变更，下游引用时不宜自行断言单一许可证；该仓库已归档，请以归档时的 LICENSE 文件为准。
 - PojavLauncher 的版权归其原作者及贡献者所有。
 
+### MobileGlues（渲染层）
+
+- 仓库/发布页：https://github.com/MobileGL-Dev/MobileGlues-release/releases
+- 说明：MobileGlues 是一个 GL 实现，运行在宿主 OpenGL ES 3.x 之上，专为在移动设备上运行 Minecraft: Java Edition 而设计。
+- 许可证：GNU LGPL-2.1（以该仓库当前 LICENSE 文件为准，存在升级至 LGPL-3.0 的记录）。
+
 ### 上游官网与翻译平台说明
 
 ZL2 的官方网站 [zalithlauncher.cn](https://zalithlauncher.cn) 和 Weblate 项目 [hosted.weblate.org/projects/zalithlauncher2](https://hosted.weblate.org/projects/zalithlauncher2) **均由上游运营**。本项目不参与运营，不对其内容负责。上游已提醒有第三方冒用“Zalith Launcher”名义搭建仿冒网站，请注意甄别。
@@ -63,6 +69,7 @@ ZL2 的官方网站 [zalithlauncher.cn](https://zalithlauncher.cn) 和 Weblate �
 ## ⚠️ 先看这里
 
 - 本项目**不是** ZL2 官方项目，与 ZL2 原作者、维护者、版权方、商标权人**没有**隶属、合作、授权、赞助或背书关系。
+- 本项目**不提供 Minecraft 游戏本体、资源包或任何游戏核心文件的下载/镜像**。2026 年 10 月，PCL、HMCL 等国内主流第三方启动器因合规原因集体关闭了游戏本体下载功能；本项目遵循同样的合规边界。
 - 本项目按 GPLv3 附加条款执行：名称合规、程序内标注“非官方修改版”、原版权声明保留。
 - 使用本项目产生的风险由用户自行承担，详见下方免责声明。
 
