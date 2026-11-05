@@ -54,6 +54,12 @@ Bubble Launcher 是一個 Android 上的 Minecraft: Java Edition 啟動器，基
 - **授權條款以該倉庫目前的 LICENSE 檔案為準。** 該專案歷史上曾從 GPL 變更為 LGPL，下游引用時不宜自行斷言單一授權條款；該倉庫已封存，請以封存時的 LICENSE 檔案為準。
 - PojavLauncher 的著作權歸其原作者及貢獻者所有。
 
+### MobileGlues（渲染層）
+
+- 倉庫／發佈頁：https://github.com/MobileGL-Dev/MobileGlues-release/releases
+- 說明：MobileGlues 是一個 GL 實作，執行在宿主 OpenGL ES 3.x 之上，專為在行動裝置上執行 Minecraft: Java Edition 而設計。
+- 授權：GNU LGPL-2.1（以該倉庫當前 LICENSE 檔案為準，存在升級至 LGPL-3.0 的記錄）。
+
 ### 上游官網與翻譯平台說明
 
 ZL2 的官方網站 [zalithlauncher.cn](https://zalithlauncher.cn) 與 Weblate 專案 [hosted.weblate.org/projects/zalithlauncher2](https://hosted.weblate.org/projects/zalithlauncher2) **均由上游營運**。本專案不參與營運，不對其內容負責。上游已提醒有第三方冒用「Zalith Launcher」名義架設仿冒網站，請注意辨識。
@@ -167,6 +173,7 @@ cd Bubble-Launcher
 |---|---|---|---|
 | **ZalithLauncher 2（上游基礎）** | © ZalithLauncher 原作者及貢獻者 | GPL-3.0 + 附加條款 | [↗](https://github.com/ZalithLauncher/ZalithLauncher2) |
 | **PojavLauncher（啟動核心）** | © PojavLauncher 原作者及貢獻者 | 以倉庫 LICENSE 為準 | [↗](https://github.com/PojavLauncherTeam/PojavLauncher) |
+| **MobileGlues-release** | © 2025-2026 MobileGL-Dev | LGPL-2.1（以倉庫目前 LICENSE 為準，存在升級至 LGPL-3.0 的記錄） | [↗](https://github.com/MobileGL-Dev/MobileGlues-release) |
 | androidx-appcompat | The Android Open Source Project | Apache 2.0 | [↗](https://developer.android.com/jetpack/androidx/releases/appcompat) |
 | androidx-constraintlayout-compose | The Android Open Source Project | Apache 2.0 | [↗](https://developer.android.com/develop/ui/compose/layouts/constraintlayout) |
 | androidx-webkit | The Android Open Source Project | Apache 2.0 | [↗](https://developer.android.com/jetpack/androidx/releases/webkit) |
