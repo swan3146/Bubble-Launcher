@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 更多页 -->
+    <string name="bl_more_title">更多</string>
+    <string name="bl_more_hero_title">Bubble Launcher</string>
+    <string name="bl_more_hero_summary">基于 Zalith Launcher 2 二次开发的定制启动器</string>
+    <string name="bl_download_task_added">已添加下载任务，可在右下角查看进度</string>
+    <string name="bl_more_section_tools">支持与信息</string>
+    <string name="bl_more_section_material">界面材质</string>
+    <string name="bl_more_item_disclaimer">免责声明</string>
+    <string name="bl_more_item_disclaimer_summary">使用前请先阅读</string>
+    <string name="bl_more_item_feedback">意见反馈</string>
+    <string name="bl_more_item_feedback_summary">提交问题或功能建议</string>
+    <string name="bl_more_item_about">关于</string>
+    <string name="bl_more_item_about_summary">版本、作者与更新</string>
+    <string name="bl_changelog_summary">点击查看 1.0.1beta 更新日志</string>
+    <string name="bl_changelog_title">更新日志 · Bubble Launcher 1.0.1beta</string>
+    <string name="bl_changelog_view_project">项目主页</string>
+    <string name="bl_changelog_body">【登录修复】\n· 修复微软（正版）登录：更换可用的设备码 client_id，解决设备码请求报错无法登录的问题。\n· 修复外置登录：自动去掉重复的 /authserver 路径，解决输完账号密码 404。\n· 修复 LittleSkin 皮肤站一键登录：自动解析真实认证地址并修正主线程网络导致的闪退。\n\n【崩溃修复】\n· 修复点下载任务弹窗时 Unknown screen 闪退。\n\n【体验】\n· 长按“开始游戏”可进行模组崩溃排错（检测缺失前置 / 冲突 / 重复，可一键禁用）。\n· 增强游戏内文字对比度；修复游戏内随机锁 60 帧。\n· 新增自适应功耗（空闲锁 60Hz、操作恢复高刷），设置内可开关，默认开启。\n· 加载动画改为跳动的液体泡泡；导航胶囊为液态玻璃材质 + 液体惯性拉伸。\n· 修复壁纸切换卡死；下载新版本时弹出任务提醒。\n· dock 栏加入主页入口；背景不透明度在液态玻璃下锁定为 0、纯色默认 50。</string>
+    <string name="bl_more_item_license">开源许可</string>
+    <string name="bl_more_item_license_summary">第三方组件许可信息</string>
+    <string name="bl_more_item_project">项目主页</string>
+    <string name="bl_more_item_project_summary">源码与问题追踪</string>
+    <string name="bl_more_item_update">检查更新</string>
+    <string name="bl_more_item_update_summary">获取最新版本</string>
+    <string name="bl_more_material_hint">材质样式会应用到启动器中的所有卡片。</string>
+    <string name="bl_material_liquid_glass">液态玻璃</string>
+    <string name="bl_material_solid">纯色</string>
+    <string name="bl_material_liquid_glass_desc">卡片边缘折射背景，带高光描边</string>
+    <string name="bl_material_solid_desc">仅使用半透明纯色</string>
+    <string name="bl_setting_material_title">材质样式</string>
+    <string name="bl_setting_material_summary">切换启动器的全局玻璃质感</string>
+
+    <!-- 免责声明 -->
+    <string name="bl_disclaimer_banner_title">请仔细阅读</string>
+    <string name="bl_disclaimer_banner_text">本启动器为第三方非官方构建，与 Mojang、Microsoft 及 Zalith Launcher 官方团队无任何隶属关系。</string>
+    <string name="bl_disclaimer_agree">我已阅读并同意以上内容</string>
+
+    <!-- 意见反馈 -->
+    <string name="bl_feedback_type">反馈类型</string>
+    <string name="bl_feedback_type_suggestion">功能建议</string>
+    <string name="bl_feedback_type_bug">问题反馈</string>
+    <string name="bl_feedback_type_other">其他</string>
+    <string name="bl_feedback_content">反馈内容</string>
+    <string name="bl_feedback_content_hint">请描述遇到的问题或你的想法，附上日志和截图会更有帮助</string>
+    <string name="bl_feedback_contact">联系方式（选填）</string>
+    <string name="bl_feedback_contact_hint">邮箱或 QQ，方便我们回复你</string>
+    <string name="bl_feedback_submit">提交反馈</string>
+    <string name="bl_feedback_copy_toast">反馈内容已复制，请在打开的页面中粘贴发送</string>
+    <string name="bl_feedback_empty_toast">请先填写反馈内容</string>
+    <string name="bl_feedback_tip">反馈将在项目问题页中提交。内容会自动复制到剪贴板，直接粘贴发送即可。</string>
+
+    <!-- 材质引导弹窗 -->
+    <string name="bl_material_intro_title">选择界面材质</string>
+    <string name="bl_material_intro_message">Bubble Launcher 默认使用液态玻璃界面。选择你喜欢的质感，之后也可以随时在设置中切换。</string>
+    <string name="bl_material_intro_apply">使用该样式</string>
+    <string name="bl_material_intro_later">以后再说</string>
+    <string name="settings_launcher_material_summary">全局界面材质样式，玻璃材质会对背景进行采样并叠加高光</string>
+    <!-- 免责声明（正文） -->
+    <string name="bl_disclaimer_title">免责声明</string>
+    <string name="bl_disclaimer_updated">最后更新：2026 年 11 月</string>
+    <string name="bl_disclaimer_sec1_title">非官方修改版声明</string>
+    <string name="bl_disclaimer_sec1_body">Bubble Launcher 是在 Zalith Launcher 2（下称 ZL2，采用 GPL-3.0 协议的开源项目）基础上修改得到的非官方版本。依据 GPLv3 第 7(c) 条附加条款，本版本已改用与原项目不同的名称与标识，名称中不含 ZalithLauncher 及其缩写 ZL，并在启动页与主界面以明显方式标注其为非官方修改版。本版本与 Zalith Launcher 官方团队、Mojang Studios、Microsoft 均无隶属、赞助或授权关系，也不代表其立场。</string>
+    <string name="bl_disclaimer_sec2_title">开源许可与源码获取</string>
+    <string name="bl_disclaimer_sec2_body">本程序整体仍按 GNU 通用公共许可证第 3 版（GPL-3.0）授权，你可以在相同协议下复制、修改与再分发。依据 GPLv3 第 5 条，分发本程序或其修改版本时须同时提供完整对应的源代码；本启动器对应版本的源码随发布页面一并提供，获取方式见关于页与发布说明。依据 GPLv3 第 7(b) 条附加条款，原项目及第三方组件的版权声明、许可文本不得移除或篡改，可在更多页的开源许可页查看。二次分发时不得附加与本协议冲突的限制，也不得将本程序作为闭源软件销售。</string>
+    <string name="bl_disclaimer_sec3_title">账号与游戏资源</string>
+    <string name="bl_disclaimer_sec3_body">游玩 Minecraft 需自行购买正版授权。离线登录仅用于本地测试与联机体验，请勿用于任何商业或侵权用途。本启动器不提供游戏本体、账号、模组或整合包的分发服务：游戏文件、依赖库与资源下载均来自官方源或公开第三方接口（如 BMCLAPI 等镜像），版权归各自权利人所有。请勿使用本程序传播或获取任何未经授权的内容。</string>
+    <string name="bl_disclaimer_sec4_title">数据与隐私</string>
+    <string name="bl_disclaimer_sec4_body">微软登录与外置登录的凭据仅保存在应用私有目录内，不会上传到任何服务器；启动器不收集设备信息与游戏行为数据，也不含任何统计或广告组件。因设备共享、Root、第三方模块或插件导致的信息泄露，由使用者自行承担。</string>
+    <string name="bl_disclaimer_sec5_title">第三方内容与风险</string>
+    <string name="bl_disclaimer_sec5_body">模组、整合包、光影、渲染器插件与游戏本体均由第三方提供，可能引起游戏崩溃、存档损坏或性能异常，请务必提前备份存档。渲染器、Java 运行时等组件另有各自的许可协议，使用前请自行确认其条款。</string>
+    <string name="bl_disclaimer_sec6_title">无担保与责任限制</string>
+    <string name="bl_disclaimer_sec6_body">依据 GPLv3 第 15、16 条，本程序按"现状"提供，不附带任何明示或默示担保，包括但不限于适销性与特定用途适用性担保。因使用或无法使用本程序造成的任何直接或间接损失（含数据丢失、设备损坏、账号封禁等），作者与贡献者不承担赔偿责任。Minecraft 为 Mojang Studios 的商标，本程序未使用其名称作为自身品牌。</string>
+    <string name="bl_disclaimer_sec7_title">关于内置 MobileGlues 渲染器</string>
+    <string name="bl_disclaimer_sec7_body">本启动器内置的 MobileGlues（MG）渲染库由 MobileGL-Dev 团队独立开发并维护（项目地址：github.com/MobileGL-Dev/MobileGlues-release），依据 GNU LGPL-2.1 许可证发布。它并非 Zalith Launcher 2，也并非本启动器自身源码的一部分，而是作为独立的动态链接库（libmobileglues.so）随附，其版权、名称与许可均归 MobileGlues 原作者所有。依据 LGPL-2.1 条款及原作者的公开要求，此处特此署名致谢，并完整保留其版权与许可声明。本启动器不对该渲染库本身作任何担保，也未对其进行修改；因 MobileGlues 引起的任何渲染问题、崩溃或兼容性问题，请向其原作者反馈，而非向 ZL2 官方团队或本启动器反馈。</string>
+    <string name="bl_disclaimer_footer">继续使用本启动器即表示你已阅读并同意上述条款；如不同意，请立即停止使用并卸载。</string>
+    <string name="bl_disclaimer_confirm">我已知晓</string>
+
+    <!-- 意见反馈（正文） -->
+    <string name="bl_feedback_title">意见反馈</string>
+    <string name="bl_feedback_summary">告诉我们你遇到的问题和想法</string>
+    <string name="bl_feedback_type_title">反馈类型</string>
+    <string name="bl_feedback_type_issue">问题反馈</string>
+    <string name="bl_feedback_content_title">反馈内容</string>
+    <string name="bl_feedback_counter">%1$d / 2000</string>
+    <string name="bl_feedback_contact_title">联系方式</string>
+    <string name="bl_feedback_submit_hint">点击后反馈内容会复制到剪贴板，并在浏览器中打开议题页面，粘贴后即可发送。</string>
+    <string name="bl_feedback_copied">反馈内容已复制，请在打开的页面中粘贴发送</string>
+    <string name="bl_feedback_empty">请先填写反馈内容</string>
+    <string name="bl_material_title">材质样式</string>
+
+    <!-- 动态壁纸 -->
+    <string name="bl_wallpaper_title">动态壁纸</string>
+    <string name="bl_wallpaper_intro_message">挑一个内置动态壁纸，让启动器动起来。下方预览会实时播放，选好再应用即可。</string>
+    <string name="bl_wallpaper_settings_summary">内置动态壁纸，应用前可实时预览</string>
+    <string name="bl_wallpaper_preview">实时预览</string>
+    <string name="bl_wallpaper_apply">使用这个壁纸</string>
+    <string name="bl_wallpaper_applied">已应用</string>
+    <string name="bl_wallpaper_later">稍后再说</string>
+    <string name="bl_wallpaper_current">使用中</string>
+    <string name="bl_wallpaper_failed">壁纸应用失败</string>
+    <string name="bl_wallpaper_pick">选择内置壁纸</string>
+    <string name="bl_wallpaper_anime_halo">二次元 · 光晕</string>
+    <string name="bl_wallpaper_anime_halo_summary">光晕与星屑，会发光的夜晚</string>
+    <string name="bl_wallpaper_anime_91">随机壁纸</string>
+    <string name="bl_wallpaper_anime_91_summary">随手打标签的二次元循环</string>
+    <string name="bl_wallpaper_kuroha">动漫线稿</string>
+    <string name="bl_wallpaper_kuroha_summary">Kuroha 出品的干净黑白线稿</string>
+    <string name="bl_wallpaper_genshin">原神</string>
+    <string name="bl_wallpaper_genshin_summary">提瓦特的动漫角色剪影</string>
+    <string name="bl_wallpaper_character">二次元角色</string>
+    <string name="bl_wallpaper_character_summary">轻快灵动的角色循环</string>
+    <string name="bl_wallpaper_girl">二次元少女</string>
+    <string name="bl_wallpaper_girl_summary">少女侧颜与微风</string>
+    <string name="bl_wallpaper_angel">二次元天使</string>
+    <string name="bl_wallpaper_angel_summary">羽翼与光，温柔明亮</string>
+    <string name="bl_wallpaper_gojo">五条悟</string>
+    <string name="bl_wallpaper_gojo_summary">咒术回战的领域展开高光瞬间</string>
+    <string name="bl_wallpaper_short_loop">微型循环</string>
+    <string name="bl_wallpaper_short_loop_summary">极短片段，几乎不占内存</string>
+    <!-- 后台下载小窗 -->
+    <string name="bl_download_window_title">后台下载</string>
+    <string name="bl_download_window_expand">展开任务列表</string>
+    <string name="bl_download_window_cancel">取消全部</string>
+
+    <string name="bl_download_background_running">正在后台下载</string>
+    <string name="bl_download_background_hint">可以继续使用其它页面，下载不会中断</string>
+
+    <string name="bl_wallpaper_pick_local">选择本地视频</string>
+
+    <!-- 个性化 -->
+    <string name="bl_personalization_title">个性化</string>
+    <string name="bl_personalization_summary">配色、背景与动画</string>
+    <string name="bl_personalization_theme_header">外观</string>
+    <string name="bl_personalization_background_header">背景</string>
+    <string name="bl_personalization_animation_header">动画</string>
+
+    <!-- LittleSkin 快捷登录 -->
+    <string name="bl_littleskin_login_title">LittleSkin 快捷登录</string>
+    <string name="bl_littleskin_login_summary">使用 LittleSkin 皮肤站账号直接登录</string>
+    <string name="bl_littleskin_server_name">LittleSkin</string>
+
+    <!-- 第三方启动器提示 -->
+    <string name="bl_third_party_title">第三方启动器提示</string>
+    <string name="bl_third_party_message">本启动器是基于 ZalithLauncher2（ZL2）修改的第三方启动器，非官方原版，由“泡泡”二次开发与维护。\n\n官方 ZL2 不对本版本的任何改动、稳定性与账号安全负责，遇到问题请勿向 ZL2 官方反馈。\n\n继续即表示你已知晓并自行承担使用风险。</string>
+    <string name="bl_third_party_continue">已知晓，继续启动</string>
+
+    <!-- 下载任务详情 -->
+    <string name="bl_download_tasks_title">下载任务</string>
+    <string name="bl_download_tasks_empty">当前没有正在进行的下载任务</string>
+    <string name="bl_download_task_progress">下载进度</string>
+    <string name="bl_download_task_speed">下载速度</string>
+    <string name="bl_download_task_stage">当前阶段</string>
+    <string name="bl_download_task_project">下载项目</string>
+    <string name="bl_download_task_running">进行中</string>
+    <string name="bl_download_task_waiting">等待中</string>
+
+    <!-- 自适应功耗 -->
+    <string name="bl_adaptive_performance_title">自适应刷新率</string>
+    <string name="bl_adaptive_performance_summary">操作时切高刷，静置几秒自动降到 60 帧，降低发热与功耗。</string>
+</resources>

@@ -1,0 +1,44 @@
+*.iml
+.gradle
+.idea
+.kotlin
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.oauth_client_id.txt
+.store_password.txt
+.key_password.txt
+.curseforge_api.txt
+LWJGL/build/
+LWJGL/*/build/
+
+# Signing keystores — private keys, must NEVER be committed to a public repo
+*.keystore
+*.jks
+bl.keystore
+pclpro.keystore
+
+# Local build logs / artifacts
+build_*.log
+build_*.err
+build_apk.*
+
+# AI agent
+.zcode/
+.agent/
+.claude/
+.cursor/
+.codex/
+.continue/
+.aider/
+.roo/
+.windsurf/
+.trae/
+.gemini/
+.ampersand/
+
+.vscode/

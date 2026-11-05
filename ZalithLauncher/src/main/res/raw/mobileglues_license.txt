@@ -1,0 +1,17 @@
+MobileGlues (libmobileglues.so)
+Copyright (c) MobileGL-Dev and contributors.
+
+This program bundles the MobileGlues renderer, an independent project
+developed and maintained by MobileGL-Dev:
+    https://github.com/MobileGL-Dev/MobileGlues-release
+
+MobileGlues is distributed under the terms of the GNU Lesser General Public
+License version 2.1 (LGPL-2.1). It is NOT part of Zalith Launcher 2 or of the
+launcher's own source code; it is loaded as a separate dynamic library and is
+not modified by this launcher.
+
+The copyright and licence notices of MobileGlues are preserved here in
+accordance with LGPL-2.1. The complete LGPL-2.1 licence text is available at:
+    https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
+Source code for MobileGlues is available from the project repository above.

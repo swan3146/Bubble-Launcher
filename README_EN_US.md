@@ -1,22 +1,16 @@
 # Bubble Launcher
-![Downloads](https://img.shields.io/github/downloads/swan3146/Bubble-Launcher/total)
-[![Sponsor](https://img.shields.io/badge/sponsor-30363D?logo=GitHub-Sponsors)](https://afdian.com/a/MovTery)
 
 [简体中文](README.md) | [繁體中文](README_ZH_TW.md)
 
+> [!NOTE]
+> **Bubble Launcher** is an unofficial modified launcher for **Android** built on top of the open-source project [Zalith Launcher 2](https://github.com/ZalithLauncher/ZalithLauncher2). It is **not affiliated** with the ZalithLauncher team.
 
-> [!IMPORTANT]
-> This project is **completely separate** from [ZalithLauncher](https://github.com/ZalithLauncher/ZalithLauncher).  
-
-**Bubble Launcher** is a newly designed launcher for [Minecraft: Java Edition](https://www.minecraft.net/). The project uses [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher/tree/v3_openjdk/app_pojavlauncher/src/main/jni) as its core launching engine and features a modern UI built with **Jetpack Compose** and **Material Design 3**.
-We are currently building our official website [zalithlauncher.cn](https://zalithlauncher.cn)  
-Additionally, we are aware that a third-party website has been set up using the name “Zalith Launcher”, appearing to be official. Please note: **this site was not created by us**. It exploits the name to display ads for profit. We **do not participate in, endorse, or trust** such content.  
-Please stay vigilant and **protect your personal privacy**!
+Bubble Launcher keeps the ZL2 launching core (based on [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)) and the **Jetpack Compose** / **Material Design 3** UI, with fixes for launch arguments, faster downloads, renderer compatibility and proper open-source attribution.
 
 ## 🌐 Language and Translation Support
 
-We are using the Weblate platform to translate Bubble Launcher. You're welcome to join our [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2) and contribute to the translations!  
-Thank you to every language contributor for helping make Bubble Launcher more multilingual and global!
+We are using the Weblate platform to translate Zalith Launcher 2. You're welcome to join our [Weblate project](https://hosted.weblate.org/projects/zalithlauncher2) and contribute to the translations!  
+Thank you to every language contributor for helping make Zalith Launcher 2 more multilingual and global!
 
 ## 📦 Build Instructions (For Developers)
 
@@ -33,62 +27,9 @@ Thank you to every language contributor for helping make Bubble Launcher more mu
 ### Build Steps
 
 ```bash
-git clone git@github.com:swan3146/Bubble-Launcher.git
+git clone git@github.com:ZalithLauncher/ZalithLauncher2.git
 # Open the project in Android Studio and build
 ```
-
-## 📜 Disclaimer
-
-The complete disclaimer of this project can be found in [DISCLAIMER.md](DISCLAIMER.md)
-
-# Bubble Launcher Disclaimer
-
-**Effective Date:** [2026-11-03]
-**Publisher:** [PaoPao]
-**Contact:** [wsdby110417@qq.com]
-
-## 1. Name Change and Project Description
-
-This project was originally a secondary development, modification and renaming of ZL2, and the current name is Bubble Launcher (hereinafter referred to as "this project"). This project is independently maintained by PaoPao, and only represents the modification achievements of the secondary developer.
-
-## 2. Non-Official Declaration
-
-This project is **not** the official ZL2 project, and there is no affiliation, cooperation, authorization, sponsorship or endorsement relationship with the original authors, maintainers, copyright holders or trademark owners of ZL2, unless otherwise expressly stated in writing. The name, trademarks, copyrights and other rights of ZL2 belong to their original right holders.
-
-## 3. Intellectual Property and Licenses
-
-1. The use of the original code, resources and documentation of ZL2 by this project shall comply with the open source licenses or other authorization terms applicable to the original project.
-2. The copyrights of the newly added or modified parts of this project belong to PaoPao or corresponding contributors, but shall not cover or negate the rights of the original right holders.
-3. If the original license requires retention of copyright notices, license text, modification instructions, etc., this project will retain them as required. When users copy, distribute, modify or use this project for commercial purposes, they shall comply with relevant licenses and laws.
-4. "Bubble Launcher" is only used as the name of this project and does not represent any rights to any third-party trademarks or names.
-
-## 4. Use at Your Own Risk
-
-This project is provided "as is". Users should evaluate and bear all risks arising from the use of this project, including but not limited to: device damage, data loss, system exceptions, account bans, third-party service interruptions, compatibility issues, security risks and legal compliance risks. Data should be backed up and sufficient testing should be performed before use.
-
-## 5. No Warranty
-
-To the fullest extent permitted by applicable law, PaoPao does not make any express or implied warranties regarding this project, including but not limited to merchantability, fitness for a particular purpose, non-infringement, accuracy, continuous availability and safety. This project may have defects, errors or interruptions, and the developer does not guarantee repairs or continuous updates.
-
-## 6. Limitation of Liability
-
-To the fullest extent permitted by applicable law, PaoPao and contributors are not liable for any direct, indirect, incidental, special, punitive, consequential damages or loss of profits arising from the use or inability to use this project, even if they have been informed that such damages may occur.
-
-## 7. Compliant Use
-
-Users shall not use this project to engage in illegal and criminal activities, nor infringe upon the intellectual property rights, privacy rights or other legitimate rights and interests of others. Users shall comply with local laws and regulations, third-party platform rules and the requirements of the original project license. Any liability arising from the user's violations shall be borne by the user.
-
-## 8. Third-Party Content
-
-This project may contain or link to third-party plugins, resources, services or code. Their copyrights and responsibilities belong to the corresponding right holders. This project does not guarantee the availability, security, legality or accuracy of third-party content.
-
-## 9. Claims and Rectification
-
-If the original ZL2 right holders, contributors or any third party believes that this project's name change, secondary development, distribution or related content infringes upon their legitimate rights and interests, please contact at [wsdby110417@qq.com]. We will delete, modify or stop the relevant distribution promptly after verification.
-
-## 10. Amendment of Disclaimer
-
-This disclaimer may be updated as the project develops. The updated version will take effect from the date of publication. Users should regularly view the latest version.
 
 ## 📜 License
 

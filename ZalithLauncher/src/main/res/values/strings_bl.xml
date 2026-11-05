@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- More screen -->
+    <string name="bl_more_title">More</string>
+    <string name="bl_more_hero_title">Bubble Launcher</string>
+    <string name="bl_more_hero_summary">A custom launcher built on Zalith Launcher 2</string>
+    <string name="bl_download_task_added">Download task added. Track progress in the bottom-right corner.</string>
+    <string name="bl_more_section_tools">Support and information</string>
+    <string name="bl_more_section_material">Interface material</string>
+    <string name="bl_more_item_disclaimer">Disclaimer</string>
+    <string name="bl_more_item_disclaimer_summary">Read this before you use the launcher</string>
+    <string name="bl_more_item_feedback">Feedback</string>
+    <string name="bl_more_item_feedback_summary">Report a bug or share an idea</string>
+    <string name="bl_more_item_about">About</string>
+    <string name="bl_more_item_about_summary">Version, author and updates</string>
+    <string name="bl_changelog_summary">Tap to view the 1.0.1beta changelog</string>
+    <string name="bl_changelog_title">Changelog · Bubble Launcher 1.0.1beta</string>
+    <string name="bl_changelog_view_project">Project page</string>
+    <string name="bl_changelog_body">[Login fixes]\n- Fixed Microsoft (premium) login: replaced the working device-code client_id.\n- Fixed external (authlib) login: strip duplicate /authserver path that caused 404.\n- Fixed LittleSkin one-tap login: resolve the real auth URL and fix a main-thread network crash.\n\n[Crash fixes]\n- Fixed Unknown screen crash when opening download tasks.\n\n[Experience]\n- Long-press Start Game for mod crash diagnosis (missing deps / conflicts / duplicates).\n- Stronger in-game text contrast; fixed random 60fps lock.\n- Adaptive power: idle locks 60Hz, touch restores high refresh (toggle in Settings, on by default).\n- Liquid-bubble loading animation; liquid-glass dock capsule with inertia stretch.\n- Fixed wallpaper-switch freeze; download-task notification on new version download.\n- Home entry added to dock; background opacity locked to 0 under liquid glass, default 50 for solid.</string>
+    <string name="bl_more_item_license">Open source licenses</string>
+    <string name="bl_more_item_license_summary">Third party components</string>
+    <string name="bl_more_item_project">Project home</string>
+    <string name="bl_more_item_project_summary">Source code and issue tracker</string>
+    <string name="bl_more_item_update">Check for updates</string>
+    <string name="bl_more_item_update_summary">Get the newest build</string>
+    <string name="bl_more_material_hint">The material style is applied to every card of the launcher.</string>
+    <string name="bl_material_liquid_glass">Liquid glass</string>
+    <string name="bl_material_solid">Solid</string>
+    <string name="bl_material_liquid_glass_desc">Refracts the background at card edges</string>
+    <string name="bl_material_solid_desc">Plain translucent color</string>
+    <string name="bl_setting_material_title">Material style</string>
+    <string name="bl_setting_material_summary">Switch the global glass look of the launcher</string>
+
+    <!-- Disclaimer -->
+    <string name="bl_disclaimer_banner_title">Please read carefully</string>
+    <string name="bl_disclaimer_banner_text">This is an unofficial third party build. It is not affiliated with Mojang, Microsoft or the Zalith Launcher team.</string>
+    <string name="bl_disclaimer_agree">I have read and accept the above</string>
+
+    <!-- Feedback -->
+    <string name="bl_feedback_type">Feedback type</string>
+    <string name="bl_feedback_type_suggestion">Suggestion</string>
+    <string name="bl_feedback_type_bug">Bug report</string>
+    <string name="bl_feedback_type_other">Other</string>
+    <string name="bl_feedback_content">Description</string>
+    <string name="bl_feedback_content_hint">Describe the problem or your idea. Logs and screenshots help a lot.</string>
+    <string name="bl_feedback_contact">Contact (optional)</string>
+    <string name="bl_feedback_contact_hint">Email or QQ so that we can reply</string>
+    <string name="bl_feedback_submit">Submit feedback</string>
+    <string name="bl_feedback_copy_toast">Feedback copied to clipboard, please paste it into the issue page</string>
+    <string name="bl_feedback_empty_toast">Please describe your feedback first</string>
+    <string name="bl_feedback_tip">Feedback is collected on the project issue page. Your text is copied automatically, just paste and send it.</string>
+
+    <!-- Material intro dialog -->
+    <string name="bl_material_intro_title">Choose your material</string>
+    <string name="bl_material_intro_message">Bubble Launcher ships with a liquid glass interface. Pick the look you like, you can switch it anytime in settings.</string>
+    <string name="bl_material_intro_apply">Use this style</string>
+    <string name="bl_material_intro_later">Later</string>
+    <string name="settings_launcher_material_summary">Global UI material style; glass materials sample the background and add highlights</string>
+    <!-- Disclaimer body -->
+    <string name="bl_disclaimer_title">Disclaimer</string>
+    <string name="bl_disclaimer_updated">Last updated: November 2026</string>
+    <string name="bl_disclaimer_sec1_title">Unofficial modified build</string>
+    <string name="bl_disclaimer_sec1_body">Bubble Launcher is an unofficial modified build based on Zalith Launcher 2 (ZL2), a GPL-3.0 open source project. As required by the additional terms under GPLv3 section 7(c), this build uses a different name and identity from the original project, contains neither the name ZalithLauncher nor its abbreviation ZL, and is clearly labelled as an unofficial modified version on the splash and main screens. It is not affiliated with, sponsored by or endorsed by the Zalith Launcher team, Mojang Studios or Microsoft, and does not represent them.</string>
+    <string name="bl_disclaimer_sec2_title">Open source licence and source code</string>
+    <string name="bl_disclaimer_sec2_body">This program as a whole remains licensed under the GNU General Public License version 3 (GPL-3.0); you may copy, modify and redistribute it under the same licence. Under GPLv3 section 5, anyone distributing this program or a modified version must also provide the complete corresponding source code; the source for each release of this launcher is published together with the release. Under the additional terms of GPLv3 section 7(b), the copyright notices and licence texts of the original project and third party components must not be removed or altered; they are listed on the open source licence page. Redistribution must not add restrictions that conflict with this licence, and this program must not be sold as closed source software.</string>
+    <string name="bl_disclaimer_sec3_title">Accounts and game assets</string>
+    <string name="bl_disclaimer_sec3_body">Playing Minecraft requires a legally purchased licence. Offline login is meant for local testing and multiplayer sessions only, never for commercial or infringing use. This launcher does not distribute the game itself, accounts, mods or modpacks: game files, libraries and assets are downloaded from official sources or public third party APIs and mirrors (such as BMCLAPI), and remain the property of their respective owners. Do not use this program to spread or obtain unauthorised content.</string>
+    <string name="bl_disclaimer_sec4_title">Data and privacy</string>
+    <string name="bl_disclaimer_sec4_body">Credentials of Microsoft or custom authentication are stored only in the app private directory and are never uploaded anywhere. The launcher does not collect device information or gameplay data and contains no analytics or advertising components. Any leak caused by shared devices, root access, third party modules or plugins is the user responsibility.</string>
+    <string name="bl_disclaimer_sec5_title">Third party content and risks</string>
+    <string name="bl_disclaimer_sec5_body">Mods, modpacks, shaders, renderer plugins and the game itself are provided by third parties and may crash the game, corrupt worlds or cause performance issues. Always back up your saves first. Renderers, Java runtimes and similar components carry their own licences; check them before use.</string>
+    <string name="bl_disclaimer_sec6_title">No warranty and limitation of liability</string>
+    <string name="bl_disclaimer_sec6_body">Under GPLv3 sections 15 and 16, this program is provided "as is", without any express or implied warranty, including but not limited to the implied warranties of merchantability and fitness for a particular purpose. The authors and contributors accept no liability for any direct or indirect loss arising from the use of, or inability to use, this program, including data loss, device damage or account suspension. Minecraft is a trademark of Mojang Studios; this program does not use that name as its own brand.</string>
+    <string name="bl_disclaimer_sec7_title">About the bundled MobileGlues renderer</string>
+    <string name="bl_disclaimer_sec7_body">The MobileGlues (MG) renderer built into this launcher is developed and maintained independently by the MobileGL-Dev team (project: github.com/MobileGL-Dev/MobileGlues-release) and is distributed under the GNU LGPL-2.1 licence. It is NOT part of Zalith Launcher 2 or of the launcher\'s own source code; it ships as a separate dynamic library (libmobileglues.so) whose copyright, name and licence belong to the MobileGlues authors. As required by LGPL-2.1 and as publicly requested by the upstream authors, proper attribution is given here and their copyright and licence notices are preserved. This launcher makes no warranty for the renderer itself and does not modify it; any rendering bug, crash or compatibility issue caused by MobileGlues should be reported to its upstream authors, not to the ZL2 team or to this launcher.</string>
+    <string name="bl_disclaimer_footer">Continuing to use this launcher means you have read and accepted the terms above. If not, please stop using it and uninstall.</string>
+    <string name="bl_disclaimer_confirm">Got it</string>
+
+    <!-- Feedback body -->
+    <string name="bl_feedback_title">Feedback</string>
+    <string name="bl_feedback_summary">Tell us about problems and ideas</string>
+    <string name="bl_feedback_type_title">Feedback type</string>
+    <string name="bl_feedback_type_issue">Bug report</string>
+    <string name="bl_feedback_content_title">Description</string>
+    <string name="bl_feedback_counter">%1$d / 2000</string>
+    <string name="bl_feedback_contact_title">Contact</string>
+    <string name="bl_feedback_submit_hint">Your text will be copied to the clipboard and the issue page will be opened. Just paste and send.</string>
+    <string name="bl_feedback_copied">Feedback copied, please paste it on the opened page</string>
+    <string name="bl_feedback_empty">Please describe your feedback first</string>
+    <string name="bl_material_title">Material style</string>
+
+    <!-- 动态壁纸 -->
+    <string name="bl_wallpaper_title">Dynamic wallpaper</string>
+    <string name="bl_wallpaper_intro_message">Pick a built-in dynamic wallpaper to make the launcher move. The preview below plays in real time.</string>
+    <string name="bl_wallpaper_settings_summary">Built-in dynamic wallpapers, previewed in real time before applying</string>
+    <string name="bl_wallpaper_preview">Live preview</string>
+    <string name="bl_wallpaper_apply">Use this wallpaper</string>
+    <string name="bl_wallpaper_applied">Applied</string>
+    <string name="bl_wallpaper_later">Later</string>
+    <string name="bl_wallpaper_current">In use</string>
+    <string name="bl_wallpaper_failed">Failed to apply the wallpaper</string>
+    <string name="bl_wallpaper_pick">Choose built-in wallpaper</string>
+    <string name="bl_wallpaper_anime_halo">Anime · Halo</string>
+    <string name="bl_wallpaper_anime_halo_summary">Soft halo and stardust, a night that glows</string>
+    <string name="bl_wallpaper_anime_91">Random anime</string>
+    <string name="bl_wallpaper_anime_91_summary">Randomly tagged anime loop</string>
+    <string name="bl_wallpaper_kuroha">Line art</string>
+    <string name="bl_wallpaper_kuroha_summary">Clean black and white line art by Kuroha</string>
+    <string name="bl_wallpaper_genshin">Genshin impact</string>
+    <string name="bl_wallpaper_genshin_summary">Character silhouettes from Teyvat</string>
+    <string name="bl_wallpaper_character">Anime character</string>
+    <string name="bl_wallpaper_character_summary">Light and lively character loop</string>
+    <string name="bl_wallpaper_girl">Anime girl</string>
+    <string name="bl_wallpaper_girl_summary">A girl in the breeze, soft side profile</string>
+    <string name="bl_wallpaper_angel">Anime angel</string>
+    <string name="bl_wallpaper_angel_summary">Wings and light, gentle and bright</string>
+    <string name="bl_wallpaper_gojo">Gojo Satoru</string>
+    <string name="bl_wallpaper_gojo_summary">Domain expansion highlight from Jujutsu Kaisen</string>
+    <string name="bl_wallpaper_short_loop">Tiny loop</string>
+    <string name="bl_wallpaper_short_loop_summary">Very short clip, barely touches memory</string>
+    <!-- 后台下载小窗 -->
+    <string name="bl_download_window_title">Background download</string>
+    <string name="bl_download_window_expand">Show task list</string>
+    <string name="bl_download_window_cancel">Cancel all</string>
+
+    <string name="bl_download_background_running">Running in background</string>
+    <string name="bl_download_background_hint">The download keeps going while you use other pages</string>
+
+    <string name="bl_wallpaper_pick_local">Pick a local video</string>
+
+    <!-- Personalization -->
+    <string name="bl_personalization_title">Personalization</string>
+    <string name="bl_personalization_summary">Colors, background and animations</string>
+    <string name="bl_personalization_theme_header">Appearance</string>
+    <string name="bl_personalization_background_header">Background</string>
+    <string name="bl_personalization_animation_header">Animation</string>
+
+    <!-- LittleSkin quick login -->
+    <string name="bl_littleskin_login_title">LittleSkin quick login</string>
+    <string name="bl_littleskin_login_summary">Sign in with your LittleSkin account</string>
+    <string name="bl_littleskin_server_name">LittleSkin</string>
+
+    <!-- Third-party launcher notice -->
+    <string name="bl_third_party_title">Third-party launcher notice</string>
+    <string name="bl_third_party_message">This launcher is a third-party build modified from ZalithLauncher2 (ZL2). It is not an official release and is maintained by Paopao.\n\nZalithLauncher2 is not responsible for any modifications, stability or account security of this build. Please do not report issues to the ZL2 team.\n\nContinuing means you understand and accept the risk.</string>
+    <string name="bl_third_party_continue">Understood, continue</string>
+
+    <!-- Download task details -->
+    <string name="bl_download_tasks_title">Download tasks</string>
+    <string name="bl_download_tasks_empty">No download task is running right now</string>
+    <string name="bl_download_task_progress">Progress</string>
+    <string name="bl_download_task_speed">Speed</string>
+    <string name="bl_download_task_stage">Current stage</string>
+    <string name="bl_download_task_project">Project</string>
+    <string name="bl_download_task_running">Running</string>
+    <string name="bl_download_task_waiting">Waiting</string>
+
+    <!-- Adaptive performance -->
+    <string name="bl_adaptive_performance_title">Adaptive refresh rate</string>
+    <string name="bl_adaptive_performance_summary">Runs at high refresh while you touch, drops to 60Hz when idle to reduce heat and power use.</string>
+</resources>
